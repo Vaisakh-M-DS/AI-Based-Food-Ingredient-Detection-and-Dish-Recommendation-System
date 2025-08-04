@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 40
+names: ['apple', 'apricot', 'avocado', 'banana', 'beet', 'bell_pepper', 'cabbage', 'carambola', 'carrot', 'corn', 'cucumber', 'egg', 'eggplant', 'figs', 'garlic', 'grape', 'grapes', 'guava', 'kiwi', 'lemon', 'lime', 'mango', 'melon', 'onion', 'orange', 'papaya', 'passionfruit', 'peach', 'pear', 'persimmon', 'pineapple', 'pitaya', 'plum', 'pomegranate', 'potato', 'radish', 'strawberry', 'tomato', 'watermelon', 'zucchini']
+
+roboflow:
+  workspace: ingredients-wzqqk
+  project: ingredient-vvrh5
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ingredients-wzqqk/ingredient-vvrh5/dataset/1

@@ -1,0 +1,74 @@
+/* App.css */
+
+/* General body styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8; /* Light blue-gray background */
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+/* Main container for the app */
+.App {
+  text-align: center;
+}
+
+/* Image preview */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Button styling */
+button {
+  background-color: #1e3a8a; /* Dark blue */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #2563eb; /* Lighter blue on hover */
+}
+
+/* Detected ingredients & suggested dishes container */
+.results-box {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #0f172a; /* Dark blue background */
+  border: 3px solid black;   /* Black border */
+  border-radius: 15px;
+  padding: 30px;
+  color: white;              /* White text for good contrast */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Section titles */
+.results-box h2 {
+  text-align: left;
+  color: #60a5fa; /* Light blue titles */
+  border-bottom: 2px solid #3b82f6;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* Lists */
+.results-box ul {
+  list-style-type: disc;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.results-box li {
+  margin: 8px 0;
+  font-size: 18px;
+}
